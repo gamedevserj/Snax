@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Zone_A
+  m_EditorClassIdentifier: 
+  m_GroupName: Zone_A
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9d7665be244fb1449873b2664bd6a6fb
+  m_SerializeEntries:
+  - m_GUID: 2d5cdb22b2deb074e916bf48d226dc0e
+    m_Address: Assets/Scenes/Zone_A.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7c96bede4a58e42b1570d9f6f4db08
+    m_Address: Assets/Materials/Zone_A_Props.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73ec501100f2956469dcb3dd4fa3e461
+    m_Address: Assets/Animations/MoveUpAndDown.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9b692bfba01afc54bbedc83f91cf7a26, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8604b093206e4014a96939d88856596f, type: 2}
+    - {fileID: 11400000, guid: 2fb8168ca7064c74d922aed74e85cf8d, type: 2}

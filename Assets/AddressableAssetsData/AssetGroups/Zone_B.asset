@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Zone_B
+  m_EditorClassIdentifier: 
+  m_GroupName: Zone_B
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b76f82d52c5fbd7419972d64e865ff2d
+  m_SerializeEntries:
+  - m_GUID: 46f2f71bbf421fb408fb4d5026a1c460
+    m_Address: Assets/Scenes/Zone_B.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1c793932f2819e4c8cb7afea8c650b6
+    m_Address: Assets/Materials/Zone_B_Props.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aac9a56303b5e2141a9d163dbaf01633
+    m_Address: Assets/Animations/MoveUpAndDownAndRotate.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9b692bfba01afc54bbedc83f91cf7a26, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 63fc816e56fbfe340a87105bc8df8f94, type: 2}
+    - {fileID: 11400000, guid: 6447658cf14aaa14490d2885fdbc02be, type: 2}

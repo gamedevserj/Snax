@@ -3,6 +3,9 @@ using UnityEngine;
 public class PuzzleController : MonoBehaviour
 {
 
+    public delegate void PlayerMoved(Vector3 position);
+    public static event PlayerMoved OnPlayerMoved;
+
     [SerializeField] private GridController _gridController;
     [SerializeField] private Transform _cellHighlight;
     [SerializeField] private KeyCode _up = KeyCode.W;
@@ -42,6 +45,7 @@ public class PuzzleController : MonoBehaviour
         }
 
         _cellHighlight.position += direction;
+        OnPlayerMoved?.Invoke(_cellHighlight.position);
     }
 
 }
