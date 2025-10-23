@@ -11,16 +11,12 @@ public class GridController : MonoBehaviour
     [SerializeField, HideInInspector] private List<GameObject> _cells;
     public Vector2Int GridSize => _gridSize;
 
+    public bool HasGrid => _cells != null && _cells.Count > 0;
+
     [ContextMenu("Create grid")]
-    private void CreateGrid()
+    public void CreateGrid()
     {
-        if (_cells != null)
-        {
-            foreach (var cell in _cells)
-            {
-                DestroyImmediate(cell);
-            }
-        }
+        ClearGrid();
 
         _cells = new();
         for (int i = 0; i < _gridSize.x; i++)
@@ -30,6 +26,17 @@ public class GridController : MonoBehaviour
                 var cell = GameObject.Instantiate(_cellPrefab, new Vector3(i, k, 0), Quaternion.identity, transform);
                 cell.SetActive(true);
                 _cells.Add(cell);
+            }
+        }
+    }
+
+    public void ClearGrid()
+    {
+        if (_cells != null)
+        {
+            foreach (var cell in _cells)
+            {
+                DestroyImmediate(cell);
             }
         }
     }
